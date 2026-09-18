@@ -1,0 +1,15 @@
+# Secrets — never commit
+.env
+
+# Airflow runtime files
+logs/
+*.pyc
+__pycache__/
+
+# Spark checkpoints (regenerated each run, not needed in repo)
+spark-apps/checkpoints/
+checkpoints/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db

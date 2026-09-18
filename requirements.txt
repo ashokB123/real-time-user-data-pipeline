@@ -1,0 +1,10 @@
+boto3
+requests
+pandas
+pyspark==3.5.0
+psycopg2-binary
+pymongo
+apache-airflow==2.7.1
+google-re2==1.1
+kafka-python
+apache-airflow-providers-apache-spark==4.1.3
